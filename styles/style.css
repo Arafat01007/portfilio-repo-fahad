@@ -2,21 +2,31 @@
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;                
+    align-items: center;           
+    margin: 0px 200px;     
 }
 
 body {
     font-family: "Open Sans", sans-serif;
 }
 
-.nav title {
+.nav-title {
     color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
     font-size: 45px;
+    font-style: normal;
     font-weight: 800;
+    line-height: normal;
+    
 }
 
 .primary-text {
     color: #FD6E0A;
+    font-family: "Open Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
 
 nav>ul {
@@ -42,4 +52,17 @@ nav a {
     color: white;
     font-weight: 700;
     padding: 15px 35px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px   ;
+display: flex;
+align-items: center;
+}
+.banner .profie-pic{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;                                 
 }
