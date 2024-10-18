@@ -73,8 +73,8 @@ justify-content: space-between;
 .banner-greeting{
     font-size: 45px;
     font-weight: 600;
-    color: #474747;
-    margin-bottom: 0;
+     color: #474747;
+     margin-bottom: 0;
 }
 .banner-title{
     font-size: 85px;
@@ -83,7 +83,8 @@ justify-content: space-between;
     margin-bottom: 20px;
 }
 .banner-discription{
-    margin-bottom: 30px;
+    margin-bottom:30px;
+    margin-top: 20px;
 }
 .banner-content{
     max-width: 500px;
@@ -92,7 +93,7 @@ justify-content: space-between;
     padding: 130px;
     border-radius: 10px;
 background: #FFF8F3;
-margin: 209px ;
+margin: 130px 0px;
 }
 .section-title{
     color:  #181818;
